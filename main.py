@@ -71,7 +71,7 @@ class ExampleApp(QtWidgets.QMainWindow, forma.Ui_MainWindow):
         kolvoperemen = int(self.TextEdit_KolPer.toPlainText())
         nyli=[]
         for i in range (kolvoperemen):
-            nyli.append(0)
+            nyli.append(0.65623245289)
         prov = self.Proverkafunction(formyla, nyli)
         if (prov==1):
             self.label_4.setText("формула некорректна")
